@@ -1,4 +1,4 @@
-# 🟡 JS Interpreter in C++
+# JS Interpreter in C++
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 What is this?
+##  What is this?
 
 This project is a **complete JavaScript interpreter** written in a single C++ file (`js_interpreter.cpp`).  
 It takes JavaScript source code as input, executes it, and prints the correct output — just like Node.js would — but built entirely from scratch using only the C++ standard library.
@@ -22,20 +22,20 @@ The interpreter implements:
 
 ---
 
-## ✅ Test Results
+## Test Results
 
 | # | Test Case | Points | Status |
 |---|-----------|--------|--------|
-| TC-1 | Odd / Even Checker | 20 | ✅ PASS |
-| TC-2 | Triangle Pattern using For Loop | 20 | ✅ PASS |
-| TC-3 | Armstrong Number | 20 | ✅ PASS |
-| TC-4 | Array Reverse | 20 | ✅ PASS |
-| TC-5 | String Palindrome Check | 20 | ✅ PASS |
-| | **TOTAL** | **100 / 100** | 🏆 |
+| TC-1 | Odd / Even Checker | 20 | PASS |
+| TC-2 | Triangle Pattern using For Loop | 20 | PASS |
+| TC-3 | Armstrong Number | 20 |  PASS |
+| TC-4 | Array Reverse | 20 | PASS |
+| TC-5 | String Palindrome Check | 20 | PASS |
+| | **TOTAL** | **100 / 100** | 
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Requirements
 - C++17 compatible compiler (`g++`, `clang++`, or MSVC 2017+)
@@ -59,7 +59,7 @@ echo "console.log('Hello, World!');" | ./js_interpreter
 
 ---
 
-## 🧪 Running the Official Test Cases
+## Running the Official Test Cases
 
 Save each snippet as a `.js` file and run it:
 
@@ -131,7 +131,7 @@ if (str === reversed) {
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 js-interpreter-cpp/
@@ -153,7 +153,7 @@ Internal layout of `js_interpreter.cpp`:
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 The interpreter follows the classic three-stage pipeline:
 
@@ -199,7 +199,7 @@ Control flow (`return`, `break`, `continue`, `throw`) is propagated using C++ ex
 
 ---
 
-## 📦 Supported JavaScript Features
+## Supported JavaScript Features
 
 ### Variables & Types
 - `let`, `const`, `var` — with proper block scoping
@@ -267,7 +267,7 @@ Control flow (`return`, `break`, `continue`, `throw`) is propagated using C++ ex
 
 ---
 
-## 💡 Example: Closures Work
+## Example: Closures Work
 
 ```js
 function counter() {
@@ -284,7 +284,7 @@ console.log(c()); // 2
 console.log(c()); // 3
 ```
 
-## 💡 Example: Higher-Order Functions
+## Example: Higher-Order Functions
 
 ```js
 const nums = [1, 2, 3, 4, 5, 6];
@@ -297,7 +297,7 @@ const result = nums
 console.log(result); // 56
 ```
 
-## 💡 Example: Recursion
+## Example: Recursion
 
 ```js
 function fib(n) {
@@ -309,7 +309,7 @@ console.log(fib(10)); // 55
 
 ---
 
-## 🏗️ Design Decisions
+## Design Decisions
 
 **Why a tree-walking interpreter?**  
 Simpler to implement correctly than bytecode compilation, and fast enough for the hackathon's test cases.
@@ -325,7 +325,7 @@ The hackathon submission is simpler as one `.cpp` file — no build system, no h
 
 ---
 
-## 📄 License
+## License
 
 MIT License — free to use, modify, and distribute.
 
